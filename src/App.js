@@ -1,6 +1,7 @@
 import {React, useState, onMouseMove, handleMouseMove,ReactNode, MouseEvent} from "react";
 import './App.css';
 import ContactUs from "./components/ContactUs.js";
+import backgroundImage from './assets/138800733_22d0adf9-ebbf-4410-8f71-382b99fef230.jpg';
 
 const App = () => {
   const scrollToSection = (id) => {
@@ -16,7 +17,7 @@ const App = () => {
 
     <div
     style={{
-      backgroundImage: `url(${process.env.PUBLIC_URL}/138800733_22d0adf9-ebbf-4410-8f71-382b99fef230.jpg)`,
+      backgroundImage: `url(${backgroundImage})`,
       backgroundSize: "cover", // Resmi tamamen sığdırır
       backgroundPosition: "center", // Ortalar
       backgroundRepeat: "no-repeat", // Tekrar etmesini engeller
@@ -88,7 +89,7 @@ const App = () => {
         </a >
 
         <a 
-        href={`${process.env.PUBLIC_URL}/assets/BERKAY%20AYCAN%20ING.pdf`}
+        href={`${process.env.REACT_APP_PUBLIC_URL}/assets/BERKAY%20AYCAN%20ING.pdf`}
         target="_blank"
         rel="noopener noreferrer"
         style={{
@@ -115,7 +116,7 @@ const App = () => {
        <h1 className="text-center text-white font-bold mb-10 text-xl ">About</h1>
   <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
   <img
-  src={`${process.env.PUBLIC_URL}/assets/WhatsApp%20Image%202024-12-23%20at%2017.22.54.jpeg`}
+  src={require('./assets/WhatsApp%20Image%202024-12-23%20at%2017.22.54.jpeg')}
   className="max-w-xs transition duration-300 ease-in-out hover:scale-110 ml-200"
   alt="Louvre"
   height={300}
