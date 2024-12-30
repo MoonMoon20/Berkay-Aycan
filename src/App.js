@@ -16,7 +16,7 @@ const App = () => {
 
     <div
     style={{
-      backgroundImage:"url('/assets/138800733_22d0adf9-ebbf-4410-8f71-382b99fef230.jpg')",
+      backgroundImage: `url(${process.env.PUBLIC_URL}/138800733_22d0adf9-ebbf-4410-8f71-382b99fef230.jpg)`,
       backgroundSize: "cover", // Resmi tamamen sığdırır
       backgroundPosition: "center", // Ortalar
       backgroundRepeat: "no-repeat", // Tekrar etmesini engeller
@@ -88,9 +88,9 @@ const App = () => {
         </a >
 
         <a 
-        href="/assets/BERKAY AYCAN ING.pdf" // public klasöründeki dosya yolu
-        target="_blank" // Yeni bir sekmede açmak için
-        rel="noopener noreferrer" // Güvenlik önlemi
+        href={`${process.env.PUBLIC_URL}/assets/BERKAY%20AYCAN%20ING.pdf`}
+        target="_blank"
+        rel="noopener noreferrer"
         style={{
           margin: "0 15px",
           color: "white",
@@ -114,13 +114,14 @@ const App = () => {
        <div className="flex flex-col items-center justify-center min-h-screen">
        <h1 className="text-center text-white font-bold mb-10 text-xl ">About</h1>
   <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
-    <img
-      src="/assets/WhatsApp Image 2024-12-23 at 17.22.54.jpeg"
-      className="max-w-xs transition duration-300 ease-in-out hover:scale-110 ml-200"
-      alt="Louvre"
-      height={300}
-      width={300}
-    />
+  <img
+  src={`${process.env.PUBLIC_URL}/assets/WhatsApp%20Image%202024-12-23%20at%2017.22.54.jpeg`}
+  className="max-w-xs transition duration-300 ease-in-out hover:scale-110 ml-200"
+  alt="Louvre"
+  height={300}
+  width={300}
+/>
+
   </div>
   <p className="text-center text-white mb-10 flex justify-center items-center mt-20">Hi my name is Berkay Aycan, i graduated at Afyon Kocatepe Univercity on 2024 as a mechatronics engineer
          and now im currently working on devoloping my software skills. You can scroll down and see my progress and my experiences.
