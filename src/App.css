@@ -1,5 +1,5 @@
 
-@media (max-width: 768px) {
+@media (max-width: 100%) {
   .box {
     flex: 1 1 100%; /* Ekran genişliği 768px'in altına indiğinde kutular tam genişlikte olur */
     max-width: 100%;

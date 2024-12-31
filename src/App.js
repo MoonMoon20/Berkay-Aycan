@@ -165,9 +165,9 @@ const App = () => {
       <div
       className="box"
        className="bg-[#11524b] p-5 rounded-lg min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)] sm:max-w-[calc(50%-16px)] overflow-hidden"
+       transform h-64 bg-[#11524b]-400 hover:bg-indigo-600 transition duration-500 hover:scale-125 !flex-[1_1_calc(50%-16px)] !ax-w-[calc(50%-16px)] !sm:max-w-[calc(50%-16px)] overflow-hidden"
       >
-        <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">JavaScript</h2>
+        <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">kavaScript</h2>
         <p class="text-white text-sm text-center">Progress: %80</p>
         <p class="text-white text-sm">Experience: 1 Year</p>
         
