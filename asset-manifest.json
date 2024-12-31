@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Berkay-Aycan/static/css/main.c396ae75.css",
-    "main.js": "/Berkay-Aycan/static/js/main.20457fec.js",
+    "main.css": "/Berkay-Aycan/static/css/main.ba3df301.css",
+    "main.js": "/Berkay-Aycan/static/js/main.f9467e6f.js",
     "static/js/488.870598f3.chunk.js": "/Berkay-Aycan/static/js/488.870598f3.chunk.js",
     "static/media/138800733_22d0adf9-ebbf-4410-8f71-382b99fef230.jpg": "/Berkay-Aycan/static/media/138800733_22d0adf9-ebbf-4410-8f71-382b99fef230.9fc036284a6a0899340d.jpg",
     "static/media/BERKAY AYCAN ING.pdf": "/Berkay-Aycan/static/media/BERKAY AYCAN ING.47f2e4f952ae641218da.pdf",
     "static/media/WhatsApp Image 2024-12-23 at 17.22.54.jpeg": "/Berkay-Aycan/static/media/WhatsApp Image 2024-12-23 at 17.22.54.3e3467c29520070c71e7.jpeg",
     "index.html": "/Berkay-Aycan/index.html",
-    "main.c396ae75.css.map": "/Berkay-Aycan/static/css/main.c396ae75.css.map",
-    "main.20457fec.js.map": "/Berkay-Aycan/static/js/main.20457fec.js.map",
+    "main.ba3df301.css.map": "/Berkay-Aycan/static/css/main.ba3df301.css.map",
+    "main.f9467e6f.js.map": "/Berkay-Aycan/static/js/main.f9467e6f.js.map",
     "488.870598f3.chunk.js.map": "/Berkay-Aycan/static/js/488.870598f3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c396ae75.css",
-    "static/js/main.20457fec.js"
+    "static/css/main.ba3df301.css",
+    "static/js/main.f9467e6f.js"
   ]
 }
