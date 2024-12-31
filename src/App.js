@@ -153,8 +153,8 @@ const App = () => {
       {/* Kutu 1 */}
       <div
        className="box"
-       className="bg-[#11524b] p-5 rounded-lg min-w-[200px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)] overflow-hidden"
+       className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[200px] min-h-[40px] text-center text-white flex-grow
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 "
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">HTML/CSS(Tailwind)</h2>
         <p class="text-white text-sm">Progress: %100</p>
@@ -164,10 +164,10 @@ const App = () => {
       {/* Kutu 2 */}
       <div
       className="box"
-       className="bg-[#11524b] p-5 rounded-lg min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 hover:bg-indigo-600 transition duration-500 hover:scale-125 !flex-[1_1_calc(50%-16px)] !ax-w-[calc(50%-16px)] !sm:max-w-[calc(50%-16px)] overflow-hidden"
+       className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 "
       >
-        <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">kavaScript</h2>
+        <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">JavaScript</h2>
         <p class="text-white text-sm text-center">Progress: %80</p>
         <p class="text-white text-sm">Experience: 1 Year</p>
         
@@ -176,8 +176,8 @@ const App = () => {
       {/* Kutu 3 */}
       <div
       className="box"
-        className="bg-[#11524b] p-5 rounded-lg min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)] sm:max-w-[calc(50%-16px)] overflow-hidden "
+        className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 "
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">React.js</h2>
         <p className="text-white text-sm">Progress: %70</p>
@@ -187,8 +187,8 @@ const App = () => {
       {/* Kutu 4 */}
       <div
       className="box"
-       className="bg-[#11524b] p-5 rounded-lg min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)] sm:max-w-[calc(50%-16px)] overflow-hidden"
+       className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 "
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">Node.js</h2>
         <p class="text-white text-sm">Progress: %70</p>
@@ -198,8 +198,8 @@ const App = () => {
       {/* Kutu 5 */}
       <div
       className="box"
-        className="bg-[#11524b] p-5 rounded-lg max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)] sm:max-w-[calc(50%-16px)] overflow-hidden"
+        className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 "
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">Python</h2>
         <p class="text-white text-sm">Progress: %30</p>
@@ -209,8 +209,8 @@ const App = () => {
       {/* Kutu 6 */}
       <div
       className="box"
-        className="bg-[#11524b] p-5 rounded-lg min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)] sm:max-w-[calc(50%-16px)] overflow-hidden"
+        className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 "
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">React Native</h2>
         <p class="text-white text-sm">Progress: %70</p>
@@ -224,8 +224,8 @@ const App = () => {
       {/* Kutu 7 */}
       <div
       className="box"
-      className="bg-[#11524b] p-5 rounded-lg min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)] sm:max-w-[calc(50%-16px)] overflow-hidden"
+      className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[200px] min-h-[40px] text-center text-white flex-grow
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">SolidWorks</h2>
         <p class="text-white text-sm">Progress: %70</p>
@@ -235,8 +235,8 @@ const App = () => {
       {/* Kutu 8 */}
       <div
       className="box"
-        className="bg-[#11524b] p-5 rounded-lg min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)] sm:max-w-[calc(50%-16px)] overflow-hidden"
+        className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[200px] min-h-[40px] text-center text-white flex-grow
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">C</h2>
         <p class="text-white text-sm">Progress: %40</p>
@@ -246,8 +246,8 @@ const App = () => {
       {/* Kutu 9 */}
       <div
       className="box"
-        className="bg-[#11524b] p-5 rounded-lg min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)] sm:max-w-[calc(50%-16px)] overflow-hidden"
+        className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[200px] min-h-[40px] text-center text-white flex-grow
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold mb-5">Siemens s300 Programming</h2>
         <p class="text-white text-sm">Progress: %60</p>
@@ -257,8 +257,8 @@ const App = () => {
       {/* Kutu 10 */}
       <div
       className="box"
-       className="bg-[#11524b] p-5 rounded-lg min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)] sm:max-w-[calc(50%-16px)] overflow-hidden"
+       className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[200px] min-h-[40px] text-center text-white flex-grow
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">MYSQL</h2>
         <p class="text-white text-sm">Progress: %20</p>
@@ -268,8 +268,8 @@ const App = () => {
       {/* Kutu 11 */}
       <div
       className="box"
-        className="bg-[#11524b] p-5 rounded-lg min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)] sm:max-w-[calc(50%-16px)] overflow-hidden"
+        className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[200px] min-h-[40px] text-center text-white flex-grow
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">Proteus</h2>
         <p class="text-white text-sm">Progress: %70</p>
@@ -279,8 +279,8 @@ const App = () => {
       {/* Kutu 12 */}
       <div
       className="box"
-        className="bg-[#11524b] p-5 rounded-lg min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 hover:bg-indigo-600 transition duration-500 hover:scale-125 hover:overflow-x-visible flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)] sm:max-w-[calc(50%-16px)] overflow-hidden"
+        className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[200px] min-h-[40px] text-center text-white flex-grow
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">Flutter</h2>
         <p class="text-white text-sm">Progress: %0</p>
