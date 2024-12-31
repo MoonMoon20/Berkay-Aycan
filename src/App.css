@@ -1,17 +1,10 @@
-@media (max-width: 600px) {
-  .card {
-    width: 100%; /* Mobilde tüm ekranı kaplar */
+
+@media (max-width: 768px) {
+  .box {
+    flex: 1 1 100%; /* Ekran genişliği 768px'in altına indiğinde kutular tam genişlikte olur */
+    max-width: 100%;
   }
 }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-.main_div_card_with_animation {
- 
-}
-
-.light {
-  
-}

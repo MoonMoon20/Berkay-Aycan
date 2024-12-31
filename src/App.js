@@ -2,7 +2,9 @@ import {React, useState, onMouseMove, handleMouseMove,ReactNode, MouseEvent} fro
 import './App.css';
 import ContactUs from "./components/ContactUs.js";
 import backgroundImage from './assets/138800733_22d0adf9-ebbf-4410-8f71-382b99fef230.jpg';
-
+import BerkayPdf from './assets/BERKAY AYCAN ING.pdf';
+import whatsappImage from './assets/WhatsApp Image 2024-12-23 at 17.22.54.jpeg';
+import { BrowserRouter } from 'react-router-dom';
 const App = () => {
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
@@ -16,6 +18,8 @@ const App = () => {
     
 
     <div
+
+    
     style={{
       backgroundImage: `url(${backgroundImage})`,
       backgroundSize: "cover", // Resmi tamamen sığdırır
@@ -89,7 +93,7 @@ const App = () => {
         </a >
 
         <a 
-        href={`${process.env.REACT_APP_PUBLIC_URL}/assets/BERKAY%20AYCAN%20ING.pdf`}
+        href={BerkayPdf} download
         target="_blank"
         rel="noopener noreferrer"
         style={{
@@ -116,7 +120,7 @@ const App = () => {
        <h1 className="text-center text-white font-bold mb-10 text-xl ">About</h1>
   <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
   <img
-  src={require('./assets/WhatsApp%20Image%202024-12-23%20at%2017.22.54.jpeg')}
+  src={whatsappImage}
   className="max-w-xs transition duration-300 ease-in-out hover:scale-110 ml-200"
   alt="Louvre"
   height={300}
@@ -144,12 +148,13 @@ const App = () => {
 </div>
 </div>
 <div
-      className="flex justify-center gap-5 p-5 "
+      className="flex justify-center gap-5 p-5 flex-wrap "
     >
       {/* Kutu 1 */}
       <div
-       className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125"
+       className="box"
+       className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[200px] min-h-[40px] text-center text-white flex-grow
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)]"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">HTML/CSS(Tailwind)</h2>
         <p class="text-white text-sm">Progress: %100</p>
@@ -158,8 +163,9 @@ const App = () => {
 
       {/* Kutu 2 */}
       <div
+      className="box"
        className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125"
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)]"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">JavaScript</h2>
         <p class="text-white text-sm text-center">Progress: %80</p>
@@ -169,8 +175,9 @@ const App = () => {
 
       {/* Kutu 3 */}
       <div
+      className="box"
         className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125"
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)]"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">React.js</h2>
         <p className="text-white text-sm">Progress: %70</p>
@@ -179,8 +186,9 @@ const App = () => {
 
       {/* Kutu 4 */}
       <div
+      className="box"
        className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125"
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)]"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">Node.js</h2>
         <p class="text-white text-sm">Progress: %70</p>
@@ -189,8 +197,9 @@ const App = () => {
 
       {/* Kutu 5 */}
       <div
+      className="box"
         className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125"
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)]"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">Python</h2>
         <p class="text-white text-sm">Progress: %30</p>
@@ -199,8 +208,9 @@ const App = () => {
 
       {/* Kutu 6 */}
       <div
+      className="box"
         className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125"
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)]"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">React Native</h2>
         <p class="text-white text-sm">Progress: %70</p>
@@ -213,8 +223,9 @@ const App = () => {
     >
       {/* Kutu 7 */}
       <div
+      className="box"
       className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125"
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)]"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">SolidWorks</h2>
         <p class="text-white text-sm">Progress: %70</p>
@@ -223,8 +234,9 @@ const App = () => {
 
       {/* Kutu 8 */}
       <div
+      className="box"
         className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125"
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)]"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">C</h2>
         <p class="text-white text-sm">Progress: %40</p>
@@ -233,8 +245,9 @@ const App = () => {
 
       {/* Kutu 9 */}
       <div
+      className="box"
         className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125"
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)]"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold mb-5">Siemens s300 Programming</h2>
         <p class="text-white text-sm">Progress: %60</p>
@@ -243,8 +256,9 @@ const App = () => {
 
       {/* Kutu 10 */}
       <div
+      className="box"
        className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125"
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)]"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">MYSQL</h2>
         <p class="text-white text-sm">Progress: %20</p>
@@ -253,8 +267,9 @@ const App = () => {
 
       {/* Kutu 11 */}
       <div
+      className="box"
         className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125"
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)]"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">Proteus</h2>
         <p class="text-white text-sm">Progress: %70</p>
@@ -263,8 +278,9 @@ const App = () => {
 
       {/* Kutu 12 */}
       <div
+      className="box"
         className="bg-[#11524b] p-5 rounded-lg w-[calc(50%-20px)] max-w-[200px] min-w-[40px] min-h-[40px] text-center text-white flex-grow
-       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 hover:overflow-x-visible"
+       transform h-64 bg-[#11524b]-400 w-80 hover:bg-indigo-600 transition duration-500 hover:scale-125 hover:overflow-x-visible flex-[1_1_calc(50%-16px)] ax-w-[calc(50%-16px)]"
       >
         <h2 class="text-white mb-10 break-words whitespace-normal text-xl font-[lato] font-bold">Flutter</h2>
         <p class="text-white text-sm">Progress: %0</p>
@@ -310,6 +326,14 @@ const App = () => {
       </div>
     </footer>
 
+
+
+    <BrowserRouter basename="/proje-adi">
+      {/* App bileşenleriniz burada */}
+      <div>
+        <h1>Merhaba Dünya!</h1>
+      </div>
+    </BrowserRouter>
 
 
     </div>
