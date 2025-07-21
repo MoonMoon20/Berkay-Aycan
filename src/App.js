@@ -328,12 +328,7 @@ const App = () => {
 
 
 
-    <BrowserRouter basename="/proje-adi">
-      {/* App bileşenleriniz burada */}
-      <div>
-        <h1>Merhaba Dünya!</h1>
-      </div>
-    </BrowserRouter>
+  
 
 
     </div>
